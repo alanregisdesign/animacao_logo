@@ -16,7 +16,7 @@
     height: 100px;
     background-color: #C92071;
     border-radius: 14px;
-    animation: zoom 4s ease-in-out 2s infinite normal;
+    animation: zoom 4s ease-in-out infinite normal;
     overflow: hidden;
 }
 
@@ -33,7 +33,7 @@
     height: 40px;
     transform: rotate(-45deg);
     background-color: white;
-    animation: slide 4s ease-in-out 2s infinite normal;
+    animation: slide 4s ease-in-out infinite normal;
 }
 
 .box-logo .maiorque::after{
@@ -45,7 +45,7 @@
     height: 40px;
     transform: rotate(45deg);
     background-color: white;
-    animation: slide 4s ease-in-out 2s infinite normal;
+    animation: slide 4s ease-in-out infinite normal;
 }
 .box-logo .underline{
     position: absolute;
@@ -54,7 +54,7 @@
     background-color: white;
     top: -168px; 
     right: 18px;
-    animation: fall 4s ease-out 2s infinite normal;
+    animation: fall 4s ease-out infinite normal;
 }
 
 @keyframes zoom{
